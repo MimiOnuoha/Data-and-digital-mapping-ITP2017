@@ -14,11 +14,10 @@ Digital technologies have created new opportunities and resources for mapping, c
 
 Time will also be devoted to investigating the conceptual questions that inform geographic data collection/representation and strategies for counter-mapping. Topics of discussion will include: what do maps represent as visual information artifacts? What happens when we consider claims to space as topics for art-based investigations? How is the expression of geodata a result of political processes? What does it mean for virtual creations to refer to physical realities, and in what ways do the two shape one another? 
 
-Students will work individually on weekly assignments, but will have the opportunity to collaborate on a final project that addresses the techniques and topics studied in the course. 
+Students will work individually on weekly assignments, but will have the opportunity to collaborate on a final project that addresses the techniques and topics studied in the course. To get the most out of this course, students should already have an understanding of HTML, CSS, and Javascript basics. 
 
-To get the most out of this course, students should already have an understanding of HTML, CSS, and Javascript basics. This two-credit course will meet the first seven weeks of the semester. 
+This two-credit course will meet the first seven weeks of the semester. 
 
-Office hours on Thursday nights, and I'll be around ITP a half hour before each class. 
 
 #### Format
 Each week will begin with a selection of students presenting assignment from previous week. If there was a reading assigned, the class will start with a brief discussion of it (no laptops open during discussion).  The bulk of the class will be spent introducing and experimenting with more technical mapping methods and tools.
@@ -38,7 +37,6 @@ Course marks will be determined by evaluating class participation, weekly assign
 ## Syllabus 
 NOTE I: This syllabus is subject to change, and will be updated weekly. Star and check often!
 
-NOTE II: If a link for a reading isn't provided, then it can be found in the "Readings" directory. Do the readings! Most of them are short, and all of them are useful. 
 
 #### Week One - January 23
 *About the course, logistics, and each other.* 
@@ -53,7 +51,7 @@ NOTE II: If a link for a reading isn't provided, then it can be found in the "Re
 
 **ASSIGNMENTS**:
 
-- Read: "Mappings", Jeremy W. Crampton (from Wiley-Blackwell Companion to Cultural Geography)
+- Read the introductino to [this](https://www.justinobeirne.com/cartography-comparison) comparison of Google Maps and Apple Maps. 
 - Create a map:
 	- Change the [location](http://www.latlong.net/)
 	- Use Leaflet.js, load tiles from [Stamen](http://maps.stamen.com/#toner-lite/12/37.7707/-122.3781), [CartoDB](https://cartodb.com/basemaps/) or any other basemap provider 
@@ -114,11 +112,8 @@ Presentation: to come
 #### Week Six - March 6
 *Experimental Geography in practice. Guest presentations.* 
 
-- [Very Brief] Overview/Discussion: Final project, final class.
-- Workshop: [Ann Chen](http://annhchen.com/whereabouts)
-- Speaker: [Josh Begley](https://joshbegley.com/)
 
-**ASSIGNMENTS**: Work on final projects
+**ASSIGNMENT**: Work on final projects
 
 
 #### Week Seven - March 20
