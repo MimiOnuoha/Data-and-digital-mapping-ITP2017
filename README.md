@@ -43,7 +43,7 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 *What is a map? What's the history of mapping? How are maps used in ways that advance agendas? What are the tools involved in digital/web mapping, and what makes it different from its predecessors?* 
 
-[Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do* 
+[Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do
 
 - Introductions
 - Discussion / Viewing: What can mapping do?
@@ -51,7 +51,7 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 **ASSIGNMENTS**:
 
-- Read the introductino to [this](https://www.justinobeirne.com/cartography-comparison) comparison of Google Maps and Apple Maps. 
+- Read the introduction to [this](https://www.justinobeirne.com/cartography-comparison) comparison of Google Maps and Apple Maps. 
 - Create a map:
 	- Change the [location](http://www.latlong.net/)
 	- Use Leaflet.js, load tiles from [Stamen](http://maps.stamen.com/#toner-lite/12/37.7707/-122.3781), [CartoDB](https://cartodb.com/basemaps/) or any other basemap provider 
@@ -61,27 +61,20 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 #### Week Two - January 30
 
-*Where does geographic data come from? What forms does it take, how has it been used in the past? How should we think about it now? Plus everything you need to know about 
-
-Presentation: (to come)
+*Where does geographic data come from? What forms does it take, how has it been used in the past? How should we think about it now? Plus everything you need to know about tiles. 
 
 - Discussion of Reading + Assignments
-- [Demonstration](https://www.dropbox.com/sh/yz2gafipzm6c744/AADTBTNQUmbHI4Tby3dtdjOca?dl=0): Adding data to our maps (tools: geojsonlint, Mapshaper, Mapzen, geojson.io). Getting data into the right format. 
+- Demonstration: Adding data to our maps (tools: geojsonlint, Mapshaper, Mapzen, geojson.io). Getting data into the right format. 
 
 **ASSIGNMENTS**: [to come]
-
 
 
 #### Week Three - February 6
 *An overview of map projections, dealing more with data and geodata*
 
-Presentation: to come 
-
-
 - Discussion + go over last week's reading
 - Last week's assignment
-- [Demonstration](https://www.dropbox.com/sh/n29t5q3a83z6w14/AABL2j_mux1lZdBOuMGEDdMta?dl=0): More on finding, converting, and working with data. 
-
+- Demonstration: More on finding, converting, and working with data. 
 
 **ASSIGNMENTS**: [to come] 
 
@@ -89,30 +82,25 @@ Presentation: to come
 *Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
 
 - Discussion + last week's assignment
-- [Presentation](http://mimionuoha.github.io/digitalmapping/weekfour/#/11): quick using python modules, understanding Mapbox 
-- [Demonstration](https://www.dropbox.com/sh/l7ooy94qdnpiz64/AADtsPlfEmzc0n_km_TBFGHxa?dl=0): Visual tools for thinking about maps. Tilemill, more on Mapbox, [ColorBrewer](http://colorbrewer2.org/)
+- Demonstration: Visual tools for thinking about maps. Tilemill, more on Mapbox, [ColorBrewer](http://colorbrewer2.org/)
 (and vice versa). 
 
 **ASSIGNMENTS**: [to come]
 
 
 #### Week Five - February 27
-*Discussing final projects: expectations, presentation. Satellite Imagery! *
+*Discussing final projects: expectations, presentation. Aerial and Satellite Imagery.*
 
 - Discussion + last week's assignment
 - Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://www.dropbox.com/s/ls269cdpsnw3dan/inspiration.pdf?dl=0) for final projects)
-- Presentation: LINK TO COME
 - Final project brief and requirements.
 - Demonstration: working and playing with Satellite images 
 
 **ASSIGNMENTS**: [to come]
 
 
-
 #### Week Six - March 6
 *Experimental Geography in practice. Guest presentations.* 
-
-
 **ASSIGNMENT**: Work on final projects
 
 
