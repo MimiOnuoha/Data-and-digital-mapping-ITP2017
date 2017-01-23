@@ -43,7 +43,7 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 *What is a map? What's the history of mapping? How are maps used in ways that advance agendas? What are the tools involved in digital/web mapping, and what makes it different from its predecessors?* 
 
-[Presentation](http://mimionuoha.github.io/digitalmapping/weekone/#/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do
+[Presentation](mimionuoha.github.io/spring2017-digitalmapping/weekone/): a quick history of mapping; analog vs digital vs web; how web mapping works; what maps do
 
 - Introductions
 - Discussion / Viewing: What can mapping do?
