@@ -55,16 +55,18 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 - Create a map:
 	- Change the [location](http://www.latlong.net/)
 	- Use Leaflet.js, load tiles from [Stamen](http://maps.stamen.com/#toner-lite/12/37.7707/-122.3781), [CartoDB](https://cartodb.com/basemaps/) or any other basemap provider 
-	- Push map online to your blog or github.io page and send me the link before Friday 
+	- Push map online to your blog or github.io page and send me the link before Monday
 - Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) 
+- Download [Moves App](https://moves-app.com/) and record your activity this week. You don't have to sign in with Facebook, and you don't have to create an account.
+	
 
 
 #### Week Two - January 30
 
-*Where does geographic data come from? What forms does it take, how has it been used in the past? How should we think about it now? Plus everything you need to know about tiles. 
+*Where does geographic data come from? What forms does it take, how has it been used in the past? How should we think about it now? Plus everything you need to know about tiles, and the basic anatomy of a web map.*
 
 - Discussion of Reading + Assignments
-- Demonstration: Adding data to our maps (tools: geojsonlint, Mapshaper, Mapzen, geojson.io). Getting data into the right format. 
+- Demonstration: Adding data to our maps (tools: geojsonlint, Mapshaper, Mapzen, geojson.io). 
 
 **ASSIGNMENTS**: [to come]
 
