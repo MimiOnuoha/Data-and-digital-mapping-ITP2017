@@ -56,7 +56,7 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 	- Change the [location](http://www.latlong.net/)
 	- Use Leaflet.js, load tiles from [Stamen](http://maps.stamen.com/#toner-lite/12/37.7707/-122.3781), [CartoDB](https://cartodb.com/basemaps/) or any other basemap provider 
 	- Push map online to your blog or github.io page and send me the link before Monday
-- Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) (but skim it! don't worry too much, we'll talk more about it in class)
+- Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) (but skim it! don't worry too much, we'll talk more in class)
 - Download [Moves App](https://moves-app.com/) and record your activity this week. You don't have to sign in with Facebook, and you don't have to create an account.
 	
 
@@ -66,7 +66,7 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 *Where does geographic data come from? What forms does it take, how has it been used in the past? How should we think about it now? Plus everything you need to know about tiles, and the basic anatomy of a web map.*
 
 - Discussion of Reading + Assignments
-- Demonstration: Adding data to our maps (tools: geojsonlint, Mapshaper, Mapzen, geojson.io). 
+- Demonstration: Adding data to our maps (tools: geojsonlint, Mapshaper, geojson.io). 
 
 **ASSIGNMENTS**: [to come]
 
@@ -103,6 +103,9 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 #### Week Six - March 6
 *Experimental Geography in practice. Guest presentations.* 
+- Guest Speaker 1: [Dan Phiffer](https://phiffer.org/) (Mapzen, Small Data, Occupy.here) 
+- Guest Speaker 2: TBA
+
 **ASSIGNMENT**: Work on final projects
 
 
