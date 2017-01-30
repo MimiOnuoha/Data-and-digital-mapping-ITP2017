@@ -65,6 +65,7 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 *Where does geographic data come from? What forms does it take, how has it been used in the past? How should we think about it now? Plus everything you need to know about tiles, and the basic anatomy of a web map.*
 
 - Discussion of Reading + Assignments
+- [Presentation](http://mimionuoha.github.io/spring2017-digitalmapping/weektwo/)
 - Demonstration: Adding data to our maps (tools: geojsonlint, Mapshaper, geojson.io). 
 
 **ASSIGNMENTS**: 
