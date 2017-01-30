@@ -58,7 +58,6 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 	- Push map online to your blog or github.io page and send me the link before Monday
 - Go through [this](http://maptime.io/anatomy-of-a-web-map/#0) (but skim it! don't worry too much, we'll talk more in class)
 - Download [Moves App](https://moves-app.com/) and record your activity this week. You don't have to sign in with Facebook, and you don't have to create an account.
-	
 
 
 #### Week Two - January 30
