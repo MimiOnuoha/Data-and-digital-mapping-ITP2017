@@ -67,9 +67,9 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 - Discussion of Reading + Assignments
 - Demonstration: Adding data to our maps (tools: geojsonlint, Mapshaper, geojson.io). 
 
-**ASSIGNMENTS**: [to come]  
+**ASSIGNMENTS**: 
 
-- Read [Borges](Borges_exactitudeinscience.pdf) and Baudrillard (in that order) 
+- Read Borges and Baudrillard (in that order, see readings folder)
 - Read this article on [When Google Goes Blind](http://www.atlasobscura.com/articles/investigating-censored-spots-on-google-earth) 
 - Add at least one geojson layer to your map(s):
 	- Use data that you have gathered from somewhere else. Make sure you incorporate 
