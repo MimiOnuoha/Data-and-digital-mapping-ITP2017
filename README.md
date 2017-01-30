@@ -72,7 +72,8 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 - Read Borges and Baudrillard (in that order, see readings folder)
 - Read this article on [When Google Goes Blind](http://www.atlasobscura.com/articles/investigating-censored-spots-on-google-earth) 
 - Add at least one geojson layer to your map(s):
-	- Use data that you have gathered from somewhere else. Make sure you incorporate 
+	- Use geojson data that you have gathered from somewhere else. 
+	- As usual, push your map online and send me the link before class. 
 - Keep your Moves data running! 
 
 	
