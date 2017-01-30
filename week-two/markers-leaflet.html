@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+    
+    html,
+    #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    #distance-box {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        padding: 5px 10px;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        font-size: 24px;
+        line-height: 18px;
+        border-radius: 3px;
+        min-height: 50px;
+    }
+}
+    </style>
+    <title> Adding Markers with Leaflet </title>
+    <!-- We've switched to mapbox.js instead of leaflet.js. It's the same core, but with added functionality. -->
+    <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' / </head>
+
+    <body>
+        <div id="map"></div>
+        <!-- <div id='distance-box'>Click to place a marker</pre> -->
+            <script>
+            // CartoDB BaseMap
+            var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+            });
+            var map = L.map('map').setView([40.7246342, -73.9427715], 12);
+
+            map.addLayer(layer);
+
+            // Adding Markers
+            var marker1 = L.marker([40.758581, -73.9295497]).addTo(map);
+            var marker2 = L.marker([40.688970, -73.957225]).addTo(map);
+
+            // Adding a circle 
+            var circle = L.circle([40.681, -73.924], {
+                color: "red",
+                fill: "blue",
+                radius: 300,
+            }).addTo(map);
+
+            
+            // Add popups
+            marker2.bindPopup("I am a popup").openPopup();
+            circle.bindPopup("hello");
+
+            var latlong = marker1.getLatLng();
+
+            // Console.log allows us to debug javascript in the browser 
+            console.log(latlong);
+
+         
+            </script>
+    </body>
+
+    </html>

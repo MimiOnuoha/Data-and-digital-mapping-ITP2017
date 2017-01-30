@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+    body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+    
+    html,
+    #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    </style>
+    <title> Adding Markers with Leaflet </title>
+    <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet'>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script> 
+
+        <!-- Adding a new library! Leaflet marker cluster helps us with clustering markers. -->
+    <script src="http://leaflet.github.io/Leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+    // BaseMap
+    var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'); //this is missing it's attribution. 
+    var map = L.map('map').setView([40.7246342, -73.9427715], 3);
+
+    map.addLayer(layer);
+    var points = omnivore.geojson('states.json').addTo(map); // geojson points immediately render as markers in leaflet.js
+
+    </script>
+</body>
+
+</html>
