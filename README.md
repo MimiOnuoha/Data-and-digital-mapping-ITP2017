@@ -71,29 +71,31 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 **ASSIGNMENTS**: 
 
-- Read Borges and Baudrillard (in that order, see readings folder)
-- Read this article on [When Google Goes Blind](http://www.atlasobscura.com/articles/investigating-censored-spots-on-google-earth) 
-- Add at least one geojson layer to your map(s):
-	- Use geojson data that you have gathered from somewhere else. 
-	- As usual, push your map online and send me the link before class. 
 - Keep your Moves data running! 
 
 	
 #### Week Three - February 6
 *An overview of map projections, dealing more with data and geodata*
 
-- Discussion + go over last week's reading
-- Last week's assignment
-- Demonstration: More on finding, converting, and working with data. 
+- Overview of mapping tools, when to use what
+- Leaflet/Mapbox, adding and manipulating data for slippy maps  
 
-**ASSIGNMENTS**: [to come] 
+**ASSIGNMENTS**: 
+
+- Reading: 
+- Export your Moves data from the [website](https://accounts.moves-app.com/signin) 
+	- Note: if you didn't create an account before, you will have to go to the app and create one now (click the small M in the lower right corner > settings > create account)
+- Create a map with it. Just as we did in class, make the data more legible by accessing the underlying geojson and changing the styles. What is interesting? What is missing?
+	- If you want a more advanced challenge: display night vs daytime trips, add a legend for toggling the displays, or try animating the paths.  
+
+
 
 #### Week Four - February 13
 *Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
 
-- Discussion + last week's assignment
-- Demonstration: Visual tools for thinking about maps. Tilemill, more on Mapbox, [ColorBrewer](http://colorbrewer2.org/)
-(and vice versa). 
+- Discussion of reading + quickly go over last week's assignment
+- Demonstration: CartoDB + Mapbox (what we did last week, but easier)
+- QGIS overview for manipulating data and styles 
 
 **ASSIGNMENTS**: [to come]
 
@@ -101,18 +103,21 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 #### Week Five - February 27
 *Discussing final projects: expectations, presentation. Aerial and Satellite Imagery.*
 
-- Discussion + last week's assignment
-- Viewing: Examples of maps that play with the limits of geography (aka, [inspiration](https://www.dropbox.com/s/ls269cdpsnw3dan/inspiration.pdf?dl=0) for final projects)
+- Guest Speaker 1: [Dan Phiffer](https://phiffer.org/) (Mapzen, Small Data, Occupy.here) 
+- More QGIS
+- Brief introduction to D3 
 - Final project brief and requirements.
-- Demonstration: working and playing with Satellite images 
+
 
 **ASSIGNMENTS**: [to come]
 
 
 #### Week Six - March 6
 *Experimental Geography in practice. Guest presentations.* 
-- Guest Speaker 1: [Dan Phiffer](https://phiffer.org/) (Mapzen, Small Data, Occupy.here) 
-- Guest Speaker 2: TBA
+
+- Guest Speaker: [Ingrid Burrington](https://lifewinning.com/) 
+- Working with satellite imagery
+- More on final projects 
 
 **ASSIGNMENT**: Work on final projects
 
@@ -122,4 +127,4 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 - Presenting Final Projects (featuring a guest critic)
 
-*Some slide images gratefully borrowed from the great folks at Maptime. 
+ 
