@@ -53,9 +53,9 @@ body {
 
             // Adding a circle 
             var circle = L.circle([40.681, -73.924], {
-                color: "red",
-                fill: "blue",
-                radius: 300,
+                color: "green",
+                fillColor: "blue",
+                radius: 700,
             }).addTo(map);
 
             
@@ -63,10 +63,11 @@ body {
             marker2.bindPopup("I am a popup").openPopup();
             circle.bindPopup("hello");
 
-            var latlong = marker1.getLatLng();
+            var latlong = marker2.getLatLng();
 
             // Console.log allows us to debug javascript in the browser 
             console.log(latlong);
+            console.log("hello");
 
          
             </script>

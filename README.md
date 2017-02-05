@@ -66,7 +66,8 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 - Discussion of Reading + Assignments
 - [Presentation](http://mimionuoha.github.io/spring2017-digitalmapping/weektwo/)
-- Demonstration: Adding data to our maps (tools: geojsonlint, Mapshaper, geojson.io). 
+- Demonstration: Adding data to our maps (tools: geojsonlint, Mapshaper, geojson.io).
+- [This is useful](https://github.com/tmcw/mapmakers-cheatsheet). 
 
 **ASSIGNMENTS**: 
 
