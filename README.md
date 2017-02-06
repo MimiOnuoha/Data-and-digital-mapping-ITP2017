@@ -35,7 +35,7 @@ Course marks will be determined by evaluating class participation, weekly assign
 ---
 
 ## Syllabus 
-NOTE I: This syllabus is subject to change, and will be updated weekly. Star and check often!
+NOTEd: This syllabus is subject to change, and will be updated weekly. Star and check often!
 
 
 #### Week One - January 23
@@ -75,7 +75,7 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 	
 #### Week Three - February 6
-*An overview of map projections, dealing more with data and geodata*
+*Geodata + slippy maps*
 
 - Overview of mapping tools, when to use what
 - Leaflet/Mapbox, adding and manipulating data for slippy maps  
