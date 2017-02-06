@@ -1,0 +1,16 @@
+### Digital Mapping Guide: When To Use What
+
+A rough guide to figuring out what tool you need for whatever type of map you want to make. 
+
+
+
+| Needs        | Tools           | Notes  | Examples
+| ------------- |:-------------:| -----:|
+| <ul><li>Preserve underlying geometry</li><li>Global and/or street-level viewing</li><li>Accessible on web</li><li>Zooming and panning support</li><li>Maximum/granular base-level customizability</li></ul>    |  Load basemap from **Stamen**, **CartoDB**, or **OSM**, load basemap tiles from **Leaflet.js** or **mapbox.js**, manipulate with javascript | Want customized base tiles? Make your own using **TileMill** or **MapBox** (need an account/subscription)|[Tor Map](https://torflow.uncharted.software/)</br> [LAFD](http://graphics.latimes.com/how-fast-is-lafd/#11/34.0498/-118.6002)
+| All of the above PLUS: <ul><li>Don't want to mess with programming</li><li>Working with super large datasets</li><li>Fine with limited customization</li><li>Prioritizing speed over detail and distinction</li></ul>       | Use **CartoDB web interface** or Mapbox for loading in data on top of existing tiles</br></br>     |     |[Buzzfeed spy planes](https://www.buzzfeed.com/peteraldhous/spy-planes-inauguration-weekend)</br> Note: for this example they are also using [Juxtapose.js](https://juxtapose.knightlab.com/) 
+| <ul><li>High level of support for viewing, projections, maps, vector/raster layers, adding data, analysis</li><li>Don't mind slightly clunky software</li><li>Good for easily working with shapefiles</li><li>Interested in manipulating both the map and the underlying data</li></ul>| **QGIS** desktop program | There's a command line version of QGIS as well  |
+| <ul><li>High level of customization/freedom with projections </li><li>Okay with steep learning curve</li><li>Javascript-savvy</li><li> Work with SVG (mainly) </li><li>No need for street-level or extensive zooming/panning</li></ul> | Use **d3.js**      |     | [Chloropleth](https://bl.ocks.org/mbostock/8ca036b3505121279daf)
+| <ul><li>Create your own styles, tiles</li><li>Want ability to export images of maps, work on design</li><li> Easily layer data on top of maps</li></ul>| If you want maximum control, open-source, and don't mind old software: **Tilemill** desktop </br></br>  | For more polished/powerful interface, use **Mapbox Studio Classic** (will need an account to use the things you create in web apps, but not for exporting images)| Note the [tiles](http://www.nationalgeographic.com/pathways/familymap.html), these are custom made
+
+| <ul><li>Working with satellite/aerial imagery</li></ul>| **USGS Earth Explorer** for finding and accessing data using web interface (need to register to get the data) </br></br> **Landsat on AWS** for just accessing data easily </br></br> **landsat-util** for downloading and working with the data on the command line| People often use photoshop or other tools for stitching images together | [LandSat Bot](https://twitter.com/LandsatBot?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) </br></br> [Glittering Blue](https://glittering.blue/)
+
