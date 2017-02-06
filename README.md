@@ -82,7 +82,7 @@ NOTE I: This syllabus is subject to change, and will be updated weekly. Star and
 
 **ASSIGNMENTS**: 
 
-- Reading: 
+- Reading: Borges and Baudrillard (in readings folder)
 - Export your Moves data from the [website](https://accounts.moves-app.com/signin) 
 	- Note: if you didn't create an account before, you will have to go to the app and create one now (click the small M in the lower right corner > settings > create account)
 - Create a map with it. Just as we did in class, make the data more legible by accessing the underlying geojson and changing the styles. What is interesting? What is missing?
