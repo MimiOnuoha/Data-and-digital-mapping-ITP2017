@@ -4,24 +4,14 @@
 <!DOCTYPE html>
 <head>
     <style>
-    body {
-        padding: 0;
-        margin: 0;
-        height: 100%;
-    }
     
-    html,
-    #map {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-    }
 
     </style>
     <title> Moves Data </title>
     <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet'>
+
+    <link href='styles.css' rel='stylesheet'>
     <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 </head>
 
@@ -29,11 +19,64 @@
     <div id="map"></div>
     <script>
     // BaseMap
-    var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png');
+    var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png');
     var map = L.map('map').setView([40.7246342, -73.9427715], 13);
     map.addLayer(layer);
 
-    var dataLayer = omnivore.geojson("data/file.geojson").addTo(map);
+    // Walking Layer
+    var walkingLayer = L.geoJson(null, {
+        filter: function(feature) {
+            // console.log(feature.properties.activities[0].activity);
+            return feature.properties.activities[0].activity == "walking";
+        },
+        style: function(feature){
+            return {
+                color: "orange",
+                weight: 5
+            }
+        }
+    });
+
+    // Transport Layer
+    var transportLayer = L.geoJson(null, {
+        filter: function(feature) {
+            // console.log(feature.properties.activities[0].activity);
+            return feature.properties.activities[0].activity == "transport";
+        },
+        style: function(feature){
+            return {
+                color: "#34F1BD",
+                weight: 5,
+                opacity: .4
+            }
+        }
+    });
+
+    // Places Layer
+    var placesLayer = L.geoJson(null, {
+        pointToLayer: function(feature, latlng){
+            return new L.CircleMarker(latlng, {
+                radius: 10,
+                color: "white",
+                fillOpacity: 1
+            })
+        },
+        onEachFeature(feature, layer){
+            // console.log(feature.properties.place.location.lat);
+            layer.bindPopup("<strong>Location</strong>:" + "</br>" + String(feature.properties.place.location.lat.toFixed(2)) + ", " + String(feature.properties.place.location.lon.toFixed(2)))
+        },
+        filter: function(feature){
+            return feature.properties.place.type == "home"
+        }
+
+    });
+
+
+    var dataLayer = omnivore.geojson("data/activities.geojson", null, walkingLayer).addTo(map);
+    var dataLayer = omnivore.geojson("data/activities.geojson", null, transportLayer).addTo(map);
+    var dataLayer = omnivore.geojson("data/places.geojson", null, placesLayer).addTo(map);
+
+
 
     </script>
 </body>

@@ -33,7 +33,7 @@
       "endTime" : "20170123T212829-0500",
       "place" : {
         "id" : 585682207,
-        "type" : "unknown",
+        "type" : "home",
         "location" : {
           "lat" : 40.72986,
           "lon" : -73.993427
@@ -54,7 +54,7 @@
       "endTime" : "20170124T114755-0500",
       "place" : {
         "id" : 585946752,
-        "type" : "unknown",
+        "type" : "work",
         "location" : {
           "lat" : 40.68175,
           "lon" : -73.930256
@@ -138,7 +138,7 @@
       "endTime" : "20170125T155345-0500",
       "place" : {
         "id" : 586475192,
-        "type" : "unknown",
+        "type" : "school",
         "location" : {
           "lat" : 40.657869,
           "lon" : -74.007988
@@ -201,7 +201,7 @@
       "endTime" : "20170126T004224-0500",
       "place" : {
         "id" : 585946752,
-        "type" : "unknown",
+        "type" : "parents",
         "location" : {
           "lat" : 40.68175,
           "lon" : -73.930256
