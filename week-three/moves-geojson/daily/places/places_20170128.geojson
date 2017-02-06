@@ -1,0 +1,88 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -75.167637, 39.941359 ]
+    },
+    "properties" : {
+      "type" : "place",
+      "startTime" : "20170127T102850-0500",
+      "endTime" : "20170128T010820-0500",
+      "place" : {
+        "id" : 587283305,
+        "type" : "unknown",
+        "location" : {
+          "lat" : 39.941359,
+          "lon" : -75.167637
+        }
+      },
+      "lastUpdate" : "20170128T072807Z",
+      "date" : "20170128"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -75.166756, 39.943803 ]
+    },
+    "properties" : {
+      "type" : "place",
+      "startTime" : "20170128T013810-0500",
+      "endTime" : "20170128T022329-0500",
+      "place" : {
+        "id" : 587576932,
+        "type" : "unknown",
+        "location" : {
+          "lat" : 39.943803,
+          "lon" : -75.166756
+        }
+      },
+      "lastUpdate" : "20170128T093255Z",
+      "date" : "20170128"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -75.167637, 39.941359 ]
+    },
+    "properties" : {
+      "type" : "place",
+      "startTime" : "20170128T022811-0500",
+      "endTime" : "20170128T194037-0500",
+      "place" : {
+        "id" : 587283305,
+        "type" : "unknown",
+        "location" : {
+          "lat" : 39.941359,
+          "lon" : -75.167637
+        }
+      },
+      "lastUpdate" : "20170129T044228Z",
+      "date" : "20170128"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -73.92902, 40.68272 ]
+    },
+    "properties" : {
+      "type" : "place",
+      "startTime" : "20170128T220942-0500",
+      "endTime" : "20170129T150020-0500",
+      "place" : {
+        "id" : 588146261,
+        "type" : "unknown",
+        "location" : {
+          "lat" : 40.68272,
+          "lon" : -73.92902
+        }
+      },
+      "lastUpdate" : "20170129T210200Z",
+      "date" : "20170128"
+    }
+  } ]
+}

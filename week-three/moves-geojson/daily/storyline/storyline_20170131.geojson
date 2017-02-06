@@ -1,0 +1,129 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -73.930256, 40.68175 ]
+    },
+    "properties" : {
+      "type" : "place",
+      "startTime" : "20170131T022757-0500",
+      "endTime" : "20170131T142054-0500",
+      "place" : {
+        "id" : 585946752,
+        "type" : "unknown",
+        "location" : {
+          "lat" : 40.68175,
+          "lon" : -73.930256
+        }
+      },
+      "lastUpdate" : "20170131T214226Z",
+      "date" : "20170131"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "MultiLineString",
+      "coordinates" : [ [ [ -73.930256, 40.68175 ], [ -73.928112, 40.681416 ], [ -73.928778, 40.681206 ], [ -73.928731, 40.680952 ], [ -73.928728, 40.680695 ], [ -73.928787, 40.680288 ], [ -73.928878, 40.679905 ], [ -73.929367, 40.67949 ], [ -73.929499, 40.679475 ], [ -73.929753, 40.679512 ], [ -73.929845, 40.679522 ], [ -73.930082, 40.679523 ] ], [ [ -73.930082, 40.679523 ], [ -73.930591, 40.679515 ], [ -73.930767, 40.679519 ], [ -73.940564, 40.680028 ], [ -73.949354, 40.680566 ], [ -73.949898, 40.680619 ], [ -73.949764, 40.680607 ], [ -73.955652, 40.681141 ], [ -73.984718, 40.688487 ], [ -73.985061, 40.688712 ], [ -73.987001, 40.692098 ] ], [ [ -73.987001, 40.692098 ], [ -73.987069, 40.692163 ], [ -73.987089, 40.692158 ], [ -73.987028, 40.692161 ], [ -73.986638, 40.692188 ], [ -73.986348, 40.6922 ], [ -73.986056, 40.692197 ] ] ]
+    },
+    "properties" : {
+      "type" : "move",
+      "startTime" : "20170131T142054-0500",
+      "endTime" : "20170131T144318-0500",
+      "activities" : [ {
+        "activity" : "walking",
+        "group" : "walking",
+        "manual" : false,
+        "startTime" : "20170131T142054-0500",
+        "endTime" : "20170131T142815-0500",
+        "duration" : 441.0,
+        "distance" : 563.0,
+        "steps" : 782
+      }, {
+        "activity" : "transport",
+        "group" : "transport",
+        "manual" : false,
+        "startTime" : "20170131T142815-0500",
+        "endTime" : "20170131T144015-0500",
+        "duration" : 720.0,
+        "distance" : 6002.0
+      }, {
+        "activity" : "walking",
+        "group" : "walking",
+        "manual" : false,
+        "startTime" : "20170131T144016-0500",
+        "endTime" : "20170131T144317-0500",
+        "duration" : 181.0,
+        "distance" : 113.0,
+        "steps" : 226
+      } ],
+      "lastUpdate" : "20170131T214226Z",
+      "date" : "20170131"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -73.986056, 40.692197 ]
+    },
+    "properties" : {
+      "type" : "place",
+      "startTime" : "20170131T144318-0500",
+      "endTime" : "20170131T145618-0500",
+      "place" : {
+        "id" : 589399773,
+        "type" : "unknown",
+        "location" : {
+          "lat" : 40.692197,
+          "lon" : -73.986056
+        }
+      },
+      "lastUpdate" : "20170131T214226Z",
+      "date" : "20170131"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "MultiLineString",
+      "coordinates" : [ [ [ -73.986056, 40.692197 ], [ -73.990968, 40.684448 ], [ -73.990969, 40.684447 ], [ -74.008206, 40.657253 ] ] ]
+    },
+    "properties" : {
+      "type" : "move",
+      "startTime" : "20170131T145618-0500",
+      "endTime" : "20170131T151258-0500",
+      "activities" : [ {
+        "activity" : "transport",
+        "group" : "transport",
+        "manual" : false,
+        "startTime" : "20170131T145618-0500",
+        "endTime" : "20170131T151258-0500",
+        "duration" : 1000.0,
+        "distance" : 4957.0
+      } ],
+      "lastUpdate" : "20170131T214226Z",
+      "date" : "20170131"
+    }
+  }, {
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -74.008206, 40.657253 ]
+    },
+    "properties" : {
+      "type" : "place",
+      "startTime" : "20170131T152252-0500",
+      "endTime" : "20170201T012551-0500",
+      "place" : {
+        "id" : 585592720,
+        "type" : "unknown",
+        "location" : {
+          "lat" : 40.657253,
+          "lon" : -74.008206
+        }
+      },
+      "lastUpdate" : "20170201T144227Z",
+      "date" : "20170131"
+    }
+  } ]
+}
