@@ -11,3 +11,19 @@ html,
     bottom: 0;
     width: 100%;
 }
+
+.info-legend leaflet-control {
+    color: "white";
+    size: 15;
+}
+
+.legend label,
+.legend span {
+  display:block;
+  float:left;
+  height:15px;
+  width:20%;
+  text-align:center;
+  font-size:9px;
+  color:#808080;
+  }

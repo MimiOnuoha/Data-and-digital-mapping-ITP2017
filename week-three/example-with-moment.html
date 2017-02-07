@@ -1,0 +1,79 @@
+<!-- An example for ITP 2017 Digital Mapping class, created 2.7.16 -->
+<!-- Leaflet docs: http://leafletjs.com/reference.html -->
+<!-- Omnivore docs: https://github.com/mapbox/leaflet-omnivore -->
+<!-- Moves docs: https://dev.moves-app.com/docs/api_summaries -->
+<!-- moment.js docs: https://momentjs.com/docs/#/parsing/e -->
+
+<!DOCTYPE html>
+<head>
+    <title> Moves Data </title>
+    <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet'>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+    <!-- Moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.js"></script>
+   <!-- Our custom stylesheet -->
+    <link href='styles.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div id="map"></div>
+    
+    <script>
+    var layer = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png');
+    var map = L.map('map').setView([40.71, -73.935], 12);
+    map.addLayer(layer);
+
+    // Function for formatting time using moment.js
+    function formatTime(timeAccessed) { return moment(timeAccessed).format('MMMM Do h:mm a') }
+
+    // Walking Layer
+    var walkingLayer = L.geoJson(null, {
+        filter: function(feature) { return feature.properties.activities[0].activity == "walking"; },
+        style: function(feature) {
+            return {
+                color: "orange",
+                weight: 5
+            }
+        }
+    });
+
+    // Transport Layer
+    var transportLayer = L.geoJson(null, {
+        filter: function(feature) { return feature.properties.activities[0].activity == "transport"; },
+        style: function(feature) {
+            return {
+                color: "#34F1BD",
+                weight: 5,
+                opacity: .4
+            }
+        }
+    });
+
+    // Places Layer
+    var placesLayer = L.geoJson(null, {
+        pointToLayer: function(feature, latlng) {
+            return new L.CircleMarker(latlng, {
+                radius: 8,
+                color: "white",
+                fillOpacity: 1
+            })
+        },
+        // Below we apply the "formatTime" function on our startTime and endTime 
+        onEachFeature(feature, layer) {
+            layer.bindPopup("Arrived: " + formatTime(feature.properties.startTime) + "</br> Left: " + formatTime(feature.properties.endTime));
+        },
+        filter: function(feature) {
+            return feature.properties.place.type == "home"
+        }
+    });
+
+
+    var layerOne = omnivore.geojson("data/activities.geojson", null, walkingLayer).addTo(map);
+    var layerTwo = omnivore.geojson("data/activities.geojson", null, transportLayer).addTo(map);
+    var layerThree = omnivore.geojson("data/places.geojson", null, placesLayer).addTo(map);
+    </script>
+</body>
+
+</html>
