@@ -35,7 +35,7 @@ Course marks will be determined by evaluating class participation, weekly assign
 ---
 
 ## Syllabus 
-NOTEd: This syllabus is subject to change, and will be updated weekly. Star and check often!
+NOTE: This syllabus is subject to change, and will be updated weekly. Star or bookmark and check often!
 
 
 #### Week One - January 23
@@ -85,15 +85,15 @@ NOTEd: This syllabus is subject to change, and will be updated weekly. Star and 
 - Reading: Borges and Baudrillard (in readings folder)
 - Export your Moves data from the [website](https://accounts.moves-app.com/signin) 
 	- Note: if you didn't create an account before, you will have to go to the app and create one now (click the small M in the lower right corner > settings > create account)
-- Create a map with it. Just as we did in class, make the data more legible by accessing the underlying geojson and changing the styles. What is interesting? What is missing?
-	- If you want a more advanced challenge: display night vs daytime trips, add a legend for toggling the displays, or try animating the paths.  
-
+- Create a map using your Moves data. Just as we did in class, make the data more legible by accessing the underlying geojson. What is interesting? What is missing? Make the story clear from the map. 
+	- If you want a more advanced challenge: display night vs daytime trips, add a legend for toggling the displays, or try animating paths. 
+- Don't forget to push your map online! 
 
 
 #### Week Four - February 13
 *Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
 
-- Discussion of reading + quickly go over last week's assignment
+- Discussion of reading + go over last week's assignment
 - Demonstration: CartoDB + Mapbox (what we did last week, but easier)
 - QGIS overview for manipulating data and styles 
 
@@ -105,8 +105,8 @@ NOTEd: This syllabus is subject to change, and will be updated weekly. Star and 
 
 - Guest Speaker 1: [Dan Phiffer](https://phiffer.org/) (Mapzen, Small Data, Occupy.here) 
 - More QGIS
-- Brief introduction to D3 
 - Final project brief and requirements.
+- Working with satellite imagery
 
 
 **ASSIGNMENTS**: [to come]
@@ -116,8 +116,8 @@ NOTEd: This syllabus is subject to change, and will be updated weekly. Star and 
 *Experimental Geography in practice. Guest presentations.* 
 
 - Guest Speaker: [Ingrid Burrington](https://lifewinning.com/) 
-- Working with satellite imagery
-- More on final projects 
+- More on satellite imagery
+- Quick D3 for maps overview!
 
 **ASSIGNMENT**: Work on final projects
 
