@@ -94,7 +94,7 @@ NOTE: This syllabus is subject to change, and will be updated weekly. Star or bo
 *Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
 
 - Discussion of reading + go over last week's assignment
-- Demonstration: CartoDB + Mapbox (what we did last week, but easier)
+- Demonstration: CartoDB + Mapbox (what we did last week, but easier) + Tangram 
 - QGIS overview for manipulating data and styles 
 
 **ASSIGNMENTS**: [to come]
@@ -103,8 +103,8 @@ NOTE: This syllabus is subject to change, and will be updated weekly. Star or bo
 #### Week Five - February 27
 *Discussing final projects: expectations, presentation. Aerial and Satellite Imagery.*
 
-- Guest Speaker 1: [Dan Phiffer](https://phiffer.org/) (Mapzen, Small Data, Occupy.here) 
-- More QGIS
+
+- More QGIS fun
 - Final project brief and requirements.
 - Working with satellite imagery
 
@@ -125,6 +125,6 @@ NOTE: This syllabus is subject to change, and will be updated weekly. Star or bo
 #### Week Seven - March 20
 *Final Class* 
 
-- Presenting Final Projects (featuring a guest critic)
+- Presenting Final Projects (featuring guest crtic [Dan Phiffer](https://phiffer.org/) (Mapzen, Small Data, Occupy.here) 
 
  
