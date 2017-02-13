@@ -5,7 +5,8 @@
 **Instructor**: Mimi Onuoha  
 **Time**: Mondays 3:20 - 5:50
 </br>**Contact**: <cgo221@nyu.edu>
-</br>**Office Hours**: [Calendar](https://calendar.google.com/calendar/selfsched?sstoken=UUl0bkJBeEw5QmpTfGRlZmF1bHR8MTVmMGJiY2ZkYjkyNWQ0NGQ1Y2YzODliMDQ0MmRlODU)
+</br>**Office Hours**: [Calendar](https://calendar.google.com/calendar/selfsched?sstoken=UUl0bkJBeEw5QmpTfGRlZmF1bHR8MTVmMGJiY2ZkYjkyNWQ0NGQ1Y2YzODliMDQ0MmRlODU) 
+
 
 ## Course Description
 
@@ -91,7 +92,7 @@ NOTE: This syllabus is subject to change, and will be updated weekly. Star or bo
 
 
 #### Week Four - February 13
-*Visual Cues, Design Considerations. How can we use visual cues to tell stories, and layer data? Expanding our tool repertoire. * 
+*Visual Cues, Design Considerations. How can we use visual cues to tell stories, and layer data? Expanding our tool repertoire.* 
 
 Download [QGIS](http://www.kyngchaos.com/software/qgis)   
 Sign up for [Mapbox Studio](https://www.mapbox.com/studio/signup/)
@@ -105,10 +106,9 @@ Find Natural Earth Data [here](https://www.dropbox.com/sh/qtg8jwspuzo9m4a/AAAn94
 
 **ASSIGNMENTS**: 
 
-- Reading: Borges and Baudrillard 
 - Use Mapbox Studio to create a new basemap style and map some data from NYC's [open data portal](https://nycopendata.socrata.com). 
-- use QGIS to create a map of the physical features of all of some country in the world. Get Natural Earth Data from [here](http://www.naturalearthdata.com/downloads/). 
-- upload both your map and your 
+- use QGIS to create a map of the physical features of all of some country in the world. Get Natural Earth Data from [here](http://www.naturalearthdata.com/downloads/), post an image of the map you create. 
+- upload both your map and your image
 
 #### Week Five - February 27
 *Discussing final projects: expectations, presentation. Aerial and Satellite Imagery.*
