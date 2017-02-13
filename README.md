@@ -91,21 +91,30 @@ NOTE: This syllabus is subject to change, and will be updated weekly. Star or bo
 
 
 #### Week Four - February 13
-*Visual Cues, Design Considerations. How can we use visual cues to tell stories? What are the traditional design rules of maps, and how can and should we interact with them?* 
+*Visual Cues, Design Considerations. How can we use visual cues to tell stories, and layer data? Expanding our tool repertoire. * 
+
+Download [QGIS](http://www.kyngchaos.com/software/qgis)   
+Sign up for [Mapbox Studio](https://www.mapbox.com/studio/signup/)
 
 - Discussion of reading + go over last week's assignment
-- Demonstration: CartoDB + Mapbox (what we did last week, but easier) + Tangram 
-- QGIS overview for manipulating data and styles 
+- Mapbox for changing basemap styles 
+- QGIS overview of creating maps and working with Natural Earth Data
 
-**ASSIGNMENTS**: [to come]
+Find Natural Earth Data [here](https://www.dropbox.com/sh/qtg8jwspuzo9m4a/AAAn943XXSOiIpn2QZ1Bt98Qa?dl=0).
 
+
+**ASSIGNMENTS**: 
+
+- Reading: Borges and Baudrillard 
+- Use Mapbox Studio to create a new basemap style and map some data from NYC's [open data portal](https://nycopendata.socrata.com). 
+- use QGIS to create a map of the physical features of all of some country in the world. Get Natural Earth Data from [here](http://www.naturalearthdata.com/downloads/). 
+- upload both your map and your 
 
 #### Week Five - February 27
 *Discussing final projects: expectations, presentation. Aerial and Satellite Imagery.*
 
-
-- More QGIS fun
-- Final project brief and requirements.
+- More fun with QGIS 
+- Final project brief and requirements
 - Working with satellite imagery
 
 
@@ -113,7 +122,7 @@ NOTE: This syllabus is subject to change, and will be updated weekly. Star or bo
 
 
 #### Week Six - March 6
-*Experimental Geography in practice. Guest presentations.* 
+*Experimental Geography in practice (guest presentation), more working with satellite and aerial imagery, intro to d3 for maps if time.* 
 
 - Guest Speaker: [Ingrid Burrington](https://lifewinning.com/) 
 - More on satellite imagery
