@@ -103,12 +103,14 @@ Sign up for [Mapbox Studio](https://www.mapbox.com/studio/signup/)
 
 Find Natural Earth Data [here](https://www.dropbox.com/sh/qtg8jwspuzo9m4a/AAAn943XXSOiIpn2QZ1Bt98Qa?dl=0).
 
+Screen recording from class is [here](https://www.youtube.com/watch?v=pGdK4qLwOMI). 
+
 
 **ASSIGNMENTS**: 
 
 - Use Mapbox Studio to create a new basemap style and map some data from NYC's [open data portal](https://nycopendata.socrata.com) (you can also use Mapzen's [Tangram](https://mapzen.com/products/tangram/) if you're so inclined.)
-- use QGIS to create a map of the physical features of all of some country in the world. Get Natural Earth Data from [here](http://www.naturalearthdata.com/downloads/), post an image of the map you create. 
-- upload both your map and your image
+- Use QGIS to create a map of the physical features of all of some country in the world. Get Natural Earth Data from [here](http://www.naturalearthdata.com/downloads/), post an image of the map you create. 
+- Upload your map and image online, email me the link before class.
 
 #### Week Five - February 27
 *Discussing final projects: expectations, presentation. Aerial and Satellite Imagery.*
