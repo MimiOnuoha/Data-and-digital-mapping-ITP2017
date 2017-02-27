@@ -116,12 +116,17 @@ Screen recording from class is [here](https://www.youtube.com/watch?v=pGdK4qLwOM
 #### Week Five - February 27
 *Discussing final projects: expectations, presentation. Aerial and Satellite Imagery.*
 
-- More fun with QGIS 
+- Discussion of reading + last week's assignment + what the rest of the course will be like
 - Final project brief and requirements
-- Working with satellite imagery
+- All about and working with satellite imagery
 
 
 **ASSIGNMENTS**: [to come]
+
+- Tell a story using satellite imagery. You should use whatever tool best gets the job done, depending on what you are highlighting. Some examples: you can reveal something using some of the other landsat bands, or highlight before and after imagery, or grab images from certain locations on Google Maps, etc. Feel free to be creative! 
+- Note: this will be your last assignment before your final project. If you haven't turned in other assignments, please turn them in this week
+- Send me your ideas for your final project. 
+
 
 
 #### Week Six - March 6
