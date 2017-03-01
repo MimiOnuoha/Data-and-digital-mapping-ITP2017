@@ -123,7 +123,7 @@ Screen recording from class is [here](https://www.youtube.com/watch?v=pGdK4qLwOM
 
 **ASSIGNMENTS**: [to come]
 
-- Go through the satellite document and get the example to work! Write a post about the process on your ITP blog. 
+- Either go through the satellite document and get the example to work or do something interesting with the Google Maps Static Image API (example is the index.html file). Write and post to your blog. 
 - Send me your ideas for your final project. They can still be in a prelim stage, don't have to be set in stone. Send BEFORE class! 
 
 
