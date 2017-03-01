@@ -23,4 +23,4 @@ Just a few examples from last year that show the breadth of types of projects.
 - [Things Worth Saving](https://vimeo.com/158647096)
 - [Waterline](http://www.peachriot.com/category/spring-2016/digital-mapping/)
 
-Also check out this document for other projects that we've talked about over the course of the semester. See me 
+Also check out [this](https://github.com/MimiOnuoha/Data-and-digital-mapping-ITP2017/blob/master/inspiration.pdf) document for a couple of other projects that we've talked about over the course of the semester. See me if you need ideas, inspiration, or just want to chat. 
