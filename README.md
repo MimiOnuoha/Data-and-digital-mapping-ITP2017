@@ -123,10 +123,8 @@ Screen recording from class is [here](https://www.youtube.com/watch?v=pGdK4qLwOM
 
 **ASSIGNMENTS**: [to come]
 
-- Tell a story using satellite imagery. You should use whatever tool best gets the job done, depending on what you are highlighting. Some examples: you can reveal something using some of the other landsat bands, or highlight before and after imagery, or grab images from certain locations on Google Maps, etc. Feel free to be creative! 
-- Note: this will be your last assignment before your final project. If you haven't turned in other assignments, please turn them in this week
-- Send me your ideas for your final project. 
-
+- Go through the satellite document and get the example to work! Write a post about the process on your ITP blog. 
+- Send me your ideas for your final project. They can still be in a prelim stage, don't have to be set in stone. Send BEFORE class! 
 
 
 #### Week Six - March 6

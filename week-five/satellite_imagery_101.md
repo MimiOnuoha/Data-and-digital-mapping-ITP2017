@@ -67,11 +67,11 @@ First, you'll need to download landsat-util (documentation is [here](https://pyt
 
 Using Indonesia as an example because I just went there, and I like how islands render in landsat imagery. We can give a latitude and longitude and it's going to search for images that match them. We can add parameters, like here where we've added it so that cloud coverage is less than 20% (which is standard for good images).
 
-	`landsat search --lat 36.1128 --lon 113.9961 --cloud 20`
+	landsat search --lat 36.1128 --lon 113.9961 --cloud 20
 
 This will return a list of JSON entries that satisfy the conditions we've set, in order of most recent. The thing we're looking for the is that 21 digit scene ID; once we know it then we can can download what we can't. I usually check the thumbnail or correlate this with one of the browser sites above to get more info. But it's what we want, so let's download. 
 
-	`landsat download LC81240612016324LGN00 --bands 4328`
+	landsat download LC81240612016324LGN00 --bands 4328
 
 This will download the bands we need. If we didn't specify, landsat-util would just download all 11 bands. But the files are huge (ofgten up to 1 GB), so that's not preferable. 
 
@@ -79,13 +79,13 @@ You'll notice that the images look weird, super dark, not like the normal satell
 
 So now you can see how satellite imagery is at once extremely true to very powerful sensors and somewhat constructed for our eyes. Color correction is a huge part of working with satellite imagery; every image you see has been manipulated to look more the way we know (think?) that it should look. 
 
-Fortunately, landsat-util will help us do the processing we need.
+Fortunately, landsat-util will help us do the processing we need (you'll need to change the path below as is appropriate for your file locations, see the second example under this one for what mine looked like).
 
-	`landsat process /users/YOURUSERNAME/landsat/file/to/folder/LC81240612016324LGN00 --bands 432`
+	landsat process /users/YOURUSERNAME/landsat/file/to/folder/LC81240612016324LGN00 --bands 432
 	
 And the results already start to look a lot better! 
 
-	`landsat process /users/mimio/landsat/downloads/Indonesia/LC81240612016324LGN00 --pansharpen`
+	landsat process /users/mimio/landsat/downloads/Indonesia/LC81240612016324LGN00 --pansharpen
 	
 If we're not happy with the images, we can push them into PhotoShop or any image processing software and play around with the contrast and brightness! See this [guide](Here's a wonderful [guide](https://www.planet.com/pulse/color-correction/) on processing images by geographer Robert Simmons for more details. 
 
@@ -102,10 +102,11 @@ Other things to look into:
 - Mapbox's satellite image layer 
 - PlanetLabs
 - Cesium 
+- Github repo/code for Josh Begley's Prison Map is [here](https://github.com/joshbegley/Satellite-Images/blob/master/Satellite_Images_Google/Satellite_Images_Google.pde). 
 
 
 ###Homework:
-Tell a story using satellite imagery, a la some of the projects we talked about in class.  You should use whatever tool best gets the job done, depending on what you are highlighting. 
+Tell a story using satellite imagery, a la some of the projects we talked about in class.  You should use whatever tool best gets the job done, depending on what you are 
 
 
 
