@@ -14,6 +14,15 @@ I'm more interested in what you choose to do than in what you can do. What is so
 - Create something web-based, digital, or physical (as long as it incorporates something that we have been working with)
 - Combine with a midterm/project from another class
 
+
+**PRESENTATIONS:**</br>
+
+- You will each have ten minutes to presents, including time for questions. You should plan to talk for about 7-8 minutes. 
+- Make sure that you have a publicly-accessible documentation of the work you've done (in other words, take pics and write something up about your project! It'll be helpful to you in the future)
+
+
+
+
 ### Examples from last year
 Just a few examples from last year that show the breadth of types of projects. 
 
